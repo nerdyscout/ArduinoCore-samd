@@ -83,6 +83,7 @@ extern "C"
 // DotStar LED
 #define PIN_DOTSTAR_DATA     (41u)
 #define PIN_DOTSTAR_CLK      (40u)
+#define PIN_DOTSTAR_CLOCK    PIN_DOTSTAR_CLK
 #define DOTSTAR_NUM          (1u)
 
 /*

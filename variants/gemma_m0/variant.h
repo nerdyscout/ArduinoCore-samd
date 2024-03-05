@@ -89,6 +89,7 @@ extern "C"
 #define INTERNAL_DS_CLK      (4u)
 #define PIN_DOTSTAR_DATA     (3u)
 #define PIN_DOTSTAR_CLK      (4u)
+#define PIN_DOTSTAR_CLOCK    PIN_DOTSTAR_CLK
 #define DOTSTAR_NUM          (1u)
 
 /*
