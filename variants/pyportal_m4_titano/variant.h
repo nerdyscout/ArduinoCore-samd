@@ -160,7 +160,7 @@ static const uint8_t ATN = PIN_ATN;
 #define PAD_SPI_TX           SPI_PAD_0_SCK_1
 #define PAD_SPI_RX           SERCOM_RX_PAD_2
 
-static const uint8_t SS	  = PIN_A2;       // ???
+static const uint8_t SS	  = 32;
 static const uint8_t MOSI = PIN_SPI_MOSI;
 static const uint8_t MISO = PIN_SPI_MISO;
 static const uint8_t SCK  = PIN_SPI_SCK;
