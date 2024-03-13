@@ -754,6 +754,7 @@ adafruit_proxlighttrinkey_m0.menu.debug.off=Off
 adafruit_proxlighttrinkey_m0.menu.debug.on=On
 adafruit_proxlighttrinkey_m0.menu.debug.on.build.flags.debug=-g
 
+
 # -----------------------------------
 # Adafruit SHT4x Trinkey M0 (SAMD21)
 # -----------------------------------
@@ -814,7 +815,6 @@ adafruit_sht4xtrinkey_m0.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUS
 adafruit_sht4xtrinkey_m0.menu.debug.off=Off
 adafruit_sht4xtrinkey_m0.menu.debug.on=On
 adafruit_sht4xtrinkey_m0.menu.debug.on.build.flags.debug=-g
-
 
 
 # -----------------------------------

@@ -270,6 +270,11 @@ d21_board_list = [
      "PROXLIGHTTRINKEY_M0", "-D__SAMD21E18A__ -DCRYSTALLESS -DADAFRUIT_PROXLIGHTTRINKEY_M0",
      "proxlighttrinkey_m0/bootloader-proxlighttrinkey_m0.bin"],
 
+    ["adafruit_sht4xtrinkey_m0", "sht4xtrinkey_m0", "Adafruit", "SHT4x Trinkey M0",
+     "0x239A", ["0x8153", "0x0153", "0x8154"],
+     "SHT4XTRINKEY_M0", "-D__SAMD21E18A__ -DCRYSTALLESS -DADAFRUIT_SHT4XTRINKEY_M0",
+     "sht4xtrinkey_m0/bootloader-sht4xtrinkey_m0.bin"],
+
     ["adafruit_itsybitsy_m0", "itsybitsy_m0", "Adafruit", "ItsyBitsy M0 Express",
      "0x239A", ["0x800F", "0x000F", "0x8012"],
      "ITSYBITSY_M0", "-D__SAMD21G18A__ -DCRYSTALLESS -DADAFRUIT_ITSYBITSY_M0",
@@ -329,6 +334,11 @@ d51_board_list = [
      "0x239A", ["0x80CD", "0x00CD"],
      "FEATHER_M4_CAN", "-D__SAME51J19A__ -DADAFRUIT_FEATHER_M4_EXPRESS -DADAFRUIT_FEATHER_M4_CAN",
      "featherM4/bootloader-feather_m4_express-v2.0.0-adafruit.5.bin"],
+
+    # ["adafruit_feather_m4_log", "feather_m4_log", "Adafruit", "Feather M4 Adalogger",
+    #  "0x239A", ["0x8115", "0x0115", "0x8116"],
+    #  "FEATHER_M4_ADALOGGER", "-D__SAME51J19A__ -DADAFRUIT_FEATHER_M4_ADALOGGER",
+    #  "feather_m4_log/bootloader-feather_m4_log-v2.0.0-adafruit.5.bin"],
 
     ["adafruit_trellis_m4", "trellis_m4",
      "Adafruit", "Trellis M4", "0x239A", ["0x802F", "0x002F", "0x0030"],
