@@ -941,9 +941,8 @@ adafruit_TRRStrinkey_m0.menu.debug.on=On
 adafruit_TRRStrinkey_m0.menu.debug.on.build.flags.debug=-g
 
 
-
 # -----------------------------------
-# Adafruit TRRS Trinkey M0 (SAMD21)
+# Adafruit Thumbstick Trinkey M0 (SAMD21)
 # -----------------------------------
 adafruit_thumbsticktrinkey_m0.name=Adafruit Thumbstick Trinkey M0 (SAMD21)
 
