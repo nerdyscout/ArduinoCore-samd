@@ -275,6 +275,21 @@ d21_board_list = [
      "SHT4XTRINKEY_M0", "-D__SAMD21E18A__ -DCRYSTALLESS -DADAFRUIT_SHT4XTRINKEY_M0",
      "sht4xtrinkey_m0/bootloader-sht4xtrinkey_m0.bin"],
 
+    ["adafruit_pixeltrinkey_m0", "pixeltrinkey_m0", "Adafruit", "Pixel Trinkey M0",
+     "0x239A", ["0x8155", "0x0155", "0x8156"],
+     "PIXELTRINKEY_M0", "-D__SAMD21E18A__ -DCRYSTALLESS -DADAFRUIT_PIXELTRINKEY_M0",
+     "pixeltrinkey_m0/bootloader-pixeltrinkey_m0.bin"],
+
+    ["adafruit_TRRStrinkey_m0", "TRRStrinkey_m0", "Adafruit", "TRRS Trinkey M0",
+     "0x239A", ["0x8157", "0x0157", "0x8158"],
+     "TRRSTRINKEY_M0", "-D__SAMD21E18A__ -DCRYSTALLESS -DADAFRUIT_TRRSTRINKEY_M0",
+     "TRRStrinkey_m0/bootloader-TRRStrinkey_m0.bin"],
+
+    ["adafruit_thumbsticktrinkey_m0", "thumbsticktrinkey_m0", "Adafruit", "Thumbstick Trinkey M0",
+     "0x239A", ["0x8159", "0x0159", "0x8160"],
+     "THUMBSTICKTRINKEY_M0", "-D__SAMD21E18A__ -DCRYSTALLESS -DADAFRUIT_THUMBSTICKTRINKEY_M0",
+     "thumbsticktrinkey_m0/bootloader-thumbsticktrinkey_m0.bin"],
+
     ["adafruit_itsybitsy_m0", "itsybitsy_m0", "Adafruit", "ItsyBitsy M0 Express",
      "0x239A", ["0x800F", "0x000F", "0x8012"],
      "ITSYBITSY_M0", "-D__SAMD21G18A__ -DCRYSTALLESS -DADAFRUIT_ITSYBITSY_M0",
