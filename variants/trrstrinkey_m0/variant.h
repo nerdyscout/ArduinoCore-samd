@@ -129,12 +129,19 @@ static const uint8_t SCK  = PIN_SPI_SCK;
 /*
  * Wire Interfaces, fake just for compilation
  */
-#define WIRE_INTERFACES_COUNT 1
+#define WIRE_INTERFACES_COUNT 2
 
-#define PIN_WIRE_SDA         PIN_RING2
-#define PIN_WIRE_SCL         PIN_SLEEVE
-#define PERIPH_WIRE          sercom0
-#define WIRE_IT_HANDLER      SERCOM0_Handler
+// QT Port
+#define PIN_WIRE_SDA         (7ul)
+#define PIN_WIRE_SCL         (8ul)
+#define PERIPH_WIRE          sercom2
+#define WIRE_IT_HANDLER      SERCOM2_Handler
+
+// second, sekret I2C on the headphone jack
+#define PIN_WIRE1_SDA         PIN_RING2
+#define PIN_WIRE1_SCL         PIN_SLEEVE
+#define PERIPH_WIRE1          sercom0
+#define WIRE1_IT_HANDLER      SERCOM0_Handler
 
 static const uint8_t SDA = PIN_WIRE_SDA;
 static const uint8_t SCL = PIN_WIRE_SCL;
@@ -142,9 +149,9 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 /*
  * USB
  */
-#define PIN_USB_HOST_ENABLE (7ul)
-#define PIN_USB_DM          (8ul)
-#define PIN_USB_DP          (9ul)
+#define PIN_USB_HOST_ENABLE (9ul)
+#define PIN_USB_DM          (10ul)
+#define PIN_USB_DP          (11ul)
 /*
  * I2S Interfaces
  */
