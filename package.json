@@ -13,6 +13,6 @@
     },
     "dependencies":
     {
-        "external-zip": "https://github.com/adafruit/Adafruit_ZeroDMA/archive/refs/tags/1.1.3.zip"
+        "adafruit/Adafruit Zero DMA Library": "^1.1.3"
     }
 }
