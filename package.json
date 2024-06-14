@@ -1,0 +1,14 @@
+{
+    "name": "framework-arduino-samd-adafruit",
+    "version": "1.7.17",
+    "description": "Arduino Wiring-based Framework",
+    "keywords": [
+        "framework",
+        "arduino",
+        "adafruit"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adafruit/ArduinoCore-samd"
+    }
+}
