@@ -882,63 +882,63 @@ adafruit_pixeltrinkey_m0.menu.debug.on.build.flags.debug=-g
 # -----------------------------------
 # Adafruit TRRS Trinkey M0 (SAMD21)
 # -----------------------------------
-adafruit_trrstrinkey_m0.name=Adafruit TRRS Trinkey M0 (SAMD21)
+adafruit_TRRStrinkey_m0.name=Adafruit TRRS Trinkey M0 (SAMD21)
 
 # VID/PID for Bootloader, Arduino & CircuitPython
-adafruit_trrstrinkey_m0.vid.0=0x239A
-adafruit_trrstrinkey_m0.pid.0=0x8157
-adafruit_trrstrinkey_m0.vid.1=0x239A
-adafruit_trrstrinkey_m0.pid.1=0x0157
-adafruit_trrstrinkey_m0.vid.2=0x239A
-adafruit_trrstrinkey_m0.pid.2=0x8158
+adafruit_TRRStrinkey_m0.vid.0=0x239A
+adafruit_TRRStrinkey_m0.pid.0=0x8157
+adafruit_TRRStrinkey_m0.vid.1=0x239A
+adafruit_TRRStrinkey_m0.pid.1=0x0157
+adafruit_TRRStrinkey_m0.vid.2=0x239A
+adafruit_TRRStrinkey_m0.pid.2=0x8158
 
 # Upload
-adafruit_trrstrinkey_m0.upload.tool=bossac18
-adafruit_trrstrinkey_m0.upload.protocol=sam-ba
-adafruit_trrstrinkey_m0.upload.maximum_size=262144
-adafruit_trrstrinkey_m0.upload.offset=0x2000
-adafruit_trrstrinkey_m0.upload.use_1200bps_touch=true
-adafruit_trrstrinkey_m0.upload.wait_for_upload_port=true
-adafruit_trrstrinkey_m0.upload.native_usb=true
+adafruit_TRRStrinkey_m0.upload.tool=bossac18
+adafruit_TRRStrinkey_m0.upload.protocol=sam-ba
+adafruit_TRRStrinkey_m0.upload.maximum_size=262144
+adafruit_TRRStrinkey_m0.upload.offset=0x2000
+adafruit_TRRStrinkey_m0.upload.use_1200bps_touch=true
+adafruit_TRRStrinkey_m0.upload.wait_for_upload_port=true
+adafruit_TRRStrinkey_m0.upload.native_usb=true
 
 # Build
-adafruit_trrstrinkey_m0.build.mcu=cortex-m0plus
-adafruit_trrstrinkey_m0.build.f_cpu=48000000L
-adafruit_trrstrinkey_m0.build.usb_product="TRRS Trinkey M0"
-adafruit_trrstrinkey_m0.build.usb_manufacturer="Adafruit"
-adafruit_trrstrinkey_m0.build.board=TRRSTRINKEY_M0
-adafruit_trrstrinkey_m0.build.core=arduino
-adafruit_trrstrinkey_m0.build.extra_flags=-D__SAMD21E18A__ -DCRYSTALLESS -DADAFRUIT_TRRSTRINKEY_M0 -DARDUINO_SAMD_ZERO -DARM_MATH_CM0PLUS {build.usb_flags}
-adafruit_trrstrinkey_m0.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
-adafruit_trrstrinkey_m0.build.openocdscript=scripts/openocd/daplink_samd21.cfg
-adafruit_trrstrinkey_m0.build.variant=trrstrinkey_m0
-adafruit_trrstrinkey_m0.build.variant_system_lib=
-adafruit_trrstrinkey_m0.build.vid=0x239A
-adafruit_trrstrinkey_m0.build.pid=0x8157
-adafruit_trrstrinkey_m0.bootloader.tool=openocd
-adafruit_trrstrinkey_m0.bootloader.file=trrstrinkey_m0/bootloader-trrstrinkey_m0.bin
+adafruit_TRRStrinkey_m0.build.mcu=cortex-m0plus
+adafruit_TRRStrinkey_m0.build.f_cpu=48000000L
+adafruit_TRRStrinkey_m0.build.usb_product="TRRS Trinkey M0"
+adafruit_TRRStrinkey_m0.build.usb_manufacturer="Adafruit"
+adafruit_TRRStrinkey_m0.build.board=TRRSTRINKEY_M0
+adafruit_TRRStrinkey_m0.build.core=arduino
+adafruit_TRRStrinkey_m0.build.extra_flags=-D__SAMD21E18A__ -DCRYSTALLESS -DADAFRUIT_TRRSTRINKEY_M0 -DARDUINO_SAMD_ZERO -DARM_MATH_CM0PLUS {build.usb_flags}
+adafruit_TRRStrinkey_m0.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+adafruit_TRRStrinkey_m0.build.openocdscript=scripts/openocd/daplink_samd21.cfg
+adafruit_TRRStrinkey_m0.build.variant=TRRStrinkey_m0
+adafruit_TRRStrinkey_m0.build.variant_system_lib=
+adafruit_TRRStrinkey_m0.build.vid=0x239A
+adafruit_TRRStrinkey_m0.build.pid=0x8157
+adafruit_TRRStrinkey_m0.bootloader.tool=openocd
+adafruit_TRRStrinkey_m0.bootloader.file=TRRStrinkey_m0/bootloader-TRRStrinkey_m0.bin
 
 # Menu: Optimization
-adafruit_trrstrinkey_m0.menu.opt.small=Small (-Os) (standard)
-adafruit_trrstrinkey_m0.menu.opt.small.build.flags.optimize=-Os
-adafruit_trrstrinkey_m0.menu.opt.fast=Fast (-O2)
-adafruit_trrstrinkey_m0.menu.opt.fast.build.flags.optimize=-O2
-adafruit_trrstrinkey_m0.menu.opt.faster=Faster (-O3)
-adafruit_trrstrinkey_m0.menu.opt.faster.build.flags.optimize=-O3
-adafruit_trrstrinkey_m0.menu.opt.fastest=Fastest (-Ofast)
-adafruit_trrstrinkey_m0.menu.opt.fastest.build.flags.optimize=-Ofast
-adafruit_trrstrinkey_m0.menu.opt.dragons=Here be dragons (-Ofast -funroll-loops)
-adafruit_trrstrinkey_m0.menu.opt.dragons.build.flags.optimize=-Ofast -funroll-loops
+adafruit_TRRStrinkey_m0.menu.opt.small=Small (-Os) (standard)
+adafruit_TRRStrinkey_m0.menu.opt.small.build.flags.optimize=-Os
+adafruit_TRRStrinkey_m0.menu.opt.fast=Fast (-O2)
+adafruit_TRRStrinkey_m0.menu.opt.fast.build.flags.optimize=-O2
+adafruit_TRRStrinkey_m0.menu.opt.faster=Faster (-O3)
+adafruit_TRRStrinkey_m0.menu.opt.faster.build.flags.optimize=-O3
+adafruit_TRRStrinkey_m0.menu.opt.fastest=Fastest (-Ofast)
+adafruit_TRRStrinkey_m0.menu.opt.fastest.build.flags.optimize=-Ofast
+adafruit_TRRStrinkey_m0.menu.opt.dragons=Here be dragons (-Ofast -funroll-loops)
+adafruit_TRRStrinkey_m0.menu.opt.dragons.build.flags.optimize=-Ofast -funroll-loops
 
 # Menu: USB Stack
-adafruit_trrstrinkey_m0.menu.usbstack.arduino=Arduino
-adafruit_trrstrinkey_m0.menu.usbstack.tinyusb=TinyUSB
-adafruit_trrstrinkey_m0.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUSB
+adafruit_TRRStrinkey_m0.menu.usbstack.arduino=Arduino
+adafruit_TRRStrinkey_m0.menu.usbstack.tinyusb=TinyUSB
+adafruit_TRRStrinkey_m0.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUSB
 
 # Menu: Debug
-adafruit_trrstrinkey_m0.menu.debug.off=Off
-adafruit_trrstrinkey_m0.menu.debug.on=On
-adafruit_trrstrinkey_m0.menu.debug.on.build.flags.debug=-g
+adafruit_TRRStrinkey_m0.menu.debug.off=Off
+adafruit_TRRStrinkey_m0.menu.debug.on=On
+adafruit_TRRStrinkey_m0.menu.debug.on.build.flags.debug=-g
 
 
 # -----------------------------------
